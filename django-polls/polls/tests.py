@@ -4,7 +4,7 @@ from django.utils import timezone
 from django.test import TestCase
 from django.core.urlresolvers import reverse
 
-from polls.models import Poll
+from .models import Poll
 
 
 class PollMethodTests(TestCase):
